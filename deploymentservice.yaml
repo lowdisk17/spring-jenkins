@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  Name: spring-jenkins
+  name: spring-jenkins
 spec:
   selector:
     matchLabels:
