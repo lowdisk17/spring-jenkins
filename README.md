@@ -35,6 +35,14 @@ STEPS
   
 2. Click 'Build Now'
 3. This will then use the Jenkinsfile from your repository for stages execution
-4. This will also use the necessary Dockerfile and yaml for creating an image and pushing to your local kube instance 
+4. This will also use the necessary Dockerfile and yaml for creating an image and pushing to your local kube instance
+5. Wait for the pods to initialized accordingly
 
 =================================================================================
+
+VERIFICATION
+
+1. Open a terminal
+2. To verify deployment type in "kubectl get deployments -n dev"
+3. To verify pods type in "kubectl get pods -n dev"
+5. To check logs of your pod type in "kubectl logs <podname> -n dev -f"
