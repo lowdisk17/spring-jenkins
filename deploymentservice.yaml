@@ -33,6 +33,6 @@ spec:
     app: spring-jenkins
   ports:
     - protocol: "TCP"
-      port: 8080 # cluster service port
+      port: 8888 # cluster service port
       targetPort: 8888 # app port
   type: NodePort
