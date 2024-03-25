@@ -46,3 +46,4 @@ VERIFICATION
 2. To verify deployment type in "kubectl get deployments -n dev"
 3. To verify pods type in "kubectl get pods -n dev"
 5. To check logs of your pod type in "kubectl logs <podname> -n dev -f"
+6. To check services port mapping type in "kubectl get svc -n dev"
