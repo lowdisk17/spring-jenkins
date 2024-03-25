@@ -47,3 +47,4 @@ VERIFICATION
 3. To verify pods type in "kubectl get pods -n dev"
 5. To check logs of your pod type in "kubectl logs <podname> -n dev -f"
 6. To check services port mapping type in "kubectl get svc -n dev"
+7. To check the direct access for your app type in "minikube service springjenkinswebapp -n dev"
